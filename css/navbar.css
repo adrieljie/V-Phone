@@ -1,0 +1,97 @@
+#navbar {
+	background: var(--secondary);
+	height: 100px;
+	width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0px 0px 20px var(--ternary);
+}
+
+#nav-element-wrapper {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0px 50px 0px 30px;
+}
+
+#nav-logo {
+	width: auto;
+	height: 5vh;
+}
+
+#menu-wrapper {
+	display: none;
+	margin-left: 0;
+	font-weight: bold;
+}
+
+#menu-wrapper a {
+	text-decoration: none;
+	color: var(--ascent);
+	font-size: 1em;
+	transition: all 0.2s ease-in-out;
+}
+
+#menu-wrapper a:hover {
+	color: var(--ternary);
+	transition: all 0.2s ease-in-out;
+}
+
+#hamburger-wrapper {
+	display: flex;
+	width: 100%;
+}
+
+#hamburger-wrapper img {
+	width: 50px;
+	margin-left: auto;
+}
+
+#hamburger-nav-wrapper {
+	display: none;
+	gap: 10px;
+	flex-direction: column;
+	width: 100vw;
+	height: 200px;
+	background: var(--secondary);
+	position: relative;
+	z-index: 9999;
+}
+
+#hamburger-nav-wrapper div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+    gap: 13px;
+}
+
+#hamburger-nav-wrapper a {
+	text-decoration: none;
+	color: var(--ascent);
+    transition: all 0.2s ease-in-out;
+}
+
+#hamburger-nav-wrapper a:hover {
+    font-weight: bolder;
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+	#menu-wrapper {
+		margin-left: auto;
+		display: flex;
+		gap: 60px;
+	}
+
+	#hamburger-wrapper {
+		display: none;
+	}   
+}
+
+.active {
+	border-bottom: 2px solid var(--ternary);
+	width: fit-content;
+}

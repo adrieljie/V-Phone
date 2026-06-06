@@ -1,0 +1,97 @@
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: var(--secondary);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: var(--ascent);
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: var(--ascent);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+select[name="gender"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: var(--ascent);
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--ternary);
+  color: var(--primary);
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: var(--ascent);
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    max-width: 90%;      
+    padding: 20px;
+    margin: 30px auto;    
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  label {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select[name="gender"],
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
+

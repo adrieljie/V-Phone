@@ -1,0 +1,162 @@
+footer {
+	width: 100vw;
+	height: auto;
+	background: var(--ascent);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#inner-footer-wrapper {
+	font-size: 20px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+#inner-footer-wrapper h3 {
+	padding: 0;
+	margin: 0;
+}
+
+#footer-menu-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+}
+
+#footer-menu-wrapper a {
+	text-decoration: none;
+	color: var(--primary);
+
+	b {
+		font-size: 20px;
+	}
+	
+}
+
+#footer-contact-wrapper {
+	color: var(--primary);
+	text-align: center;
+}
+
+.contact-detail {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: var(--primary);
+	text-decoration: none;
+}
+
+#contact-list-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+#social-media-list-wrapper {
+	display: flex;
+	gap: 30px;
+	margin-top: 30px;
+	justify-content: center;
+}
+
+img.whatsapp {
+	height: 3vh;
+	width: auto;
+}
+
+img.gmail {
+	height: 3vh;
+	width: auto;
+}
+
+img.instagram {
+	height: 3vh;
+	width: auto;
+}
+
+img.twitter {
+	height: 3vh;
+	width: auto;
+}
+
+img.facebook {
+	height: 3vh;
+	width: auto;
+}
+
+
+#menu-contact-wrapper {
+	display: flex;
+	gap: 50px;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+	#inner-footer-wrapper {
+		flex-direction: row;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#footer-menu-wrapper {
+		align-items: start;
+	}
+	#contact-list-wrapper {
+		flex-direction: row;
+		gap: 30px;
+		margin-top: 15px;
+		margin-bottom: 5px;
+	}
+	#footer-contact-wrapper {
+		text-align: start;
+	}
+	#menu-contact-wrapper {
+		flex-direction: row;
+	}
+	#social-media-list-wrapper {
+		justify-content: start;
+	}
+	
+}
+
+@media screen and (max-width: 1199px) {
+	#inner-footer-wrapper {
+		font-size: 16px;
+	}
+
+	#footer-menu-wrapper a b {
+		font-size: 18px;
+	}
+	img.logo-footer {
+		height: 150px;
+	}
+	img.whatsapp,
+  	img.gmail,
+  	img.instagram,
+  	img.twitter,
+  	img.facebook {
+    	height: 2.5vh;
+  	}
+}
+
+@media screen and (max-width: 767px) {
+	#inner-footer-wrapper {
+		font-size: 14px;
+	}
+
+	#footer-menu-wrapper a b {
+		font-size: 16px;
+	}
+	img.logo-footer {
+		height: 100px;
+	}
+	img.whatsapp,
+  	img.gmail,
+  	img.instagram,
+  	img.twitter,
+  	img.facebook {
+    	height: 2vh;
+  	}
+}

@@ -1,0 +1,78 @@
+.promotion-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: var(--primary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.656);
+    display: flex;
+    flex-direction: row;
+}
+
+.voucher-wrapper {
+    width: 30%;
+    aspect-ratio: 4 / 3; /* rasio bisa kamu ubah sesuai keinginan */
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 5px solid black;
+  }
+  
+  img.voucher {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+.program-title{
+    color: var(--ascent);
+    margin-left: 50px;
+    display: flex;
+}
+
+.description-title{
+    color: var(--ascent);
+    margin-left: 50px;
+    display: flex;
+}
+
+.description{
+    color: var(--ascent);
+    margin-left: 50px;
+    display: flex;
+}
+
+@media (max-width: 1060px) {
+    .voucher-wrapper {
+        width: 50%;
+      }
+    /* img.voucher {
+      width: 100%;
+      height: 100%;
+    } */
+}
+  
+@media (max-width: 768px) {
+    .promotion-container {
+      flex-direction: column;
+      align-items: center;
+      max-width: 90%;
+      padding: 20px;
+    }
+  
+    .voucher-wrapper {
+        width: 80%;
+        aspect-ratio: 4 / 3;
+        margin-bottom: 20px;
+      }    
+
+    .program-title,
+    .description-title,
+    .description {
+      margin-left: 0;
+      
+    }
+}
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div id="nav-element-wrapper">
+            <div>
+                <a href="index.html"><img src="asset/logo_dark.png" id="nav-logo" alt="V-Phone Logo"></a>
+            </div>
+            <div id="menu-wrapper">
+                <a href="index.html">Home</a>
+                <a href="product.html">Product</a>
+                <a href="promotion.html">Promotion</a>
+                <a href="about.html">About Us</a>
+                <a href="register.html" class="active">Register</a>
+            </div>
+            <div id="hamburger-wrapper">
+                <img src="asset/hamburger.png" id="hamburger" alt="">
+            </div>
+        </div>
+        <div id="hamburger-nav-wrapper">
+          <div>
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="promotion.html">Promotion</a>
+            <a href="about.html">About Us</a>
+            <a href="register.html" class="active">Register</a>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Registration Form -->
+    <div class="form-container">
+        <h2>Registration</h2>
+  
+        <form id="registrationForm" action="" method="post">
+          
+          <!-- Username -->
+          <div class="input-group">
+            <label for="nama"> Name:</label>
+            <input type="text" name="nama" id="nama" placeholder="Enter your name...">
+          </div>
+
+          <!-- Email -->
+          <div class="input-group">
+            <label for="email"> E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your e-mail...">
+          </div>
+
+          <!-- Gender -->
+          <div class="input-group">
+            <label for="gender"> Gender:</label>
+            <select name="gender" id="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <!-- Password -->
+          <div class="input-group">
+            <label for="password"> Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password...">
+          </div>
+  
+          <!-- Confirm Password -->
+          <div class="input-group">
+            <label for="confpass"> Confirm Password:</label>
+            <input type="password" name="confpass" id="confpass" placeholder="Confirm your password...">
+          </div>
+  
+          <div class="button-container">
+            <button>Sign Up</button>
+          </div>
+        </form>
+    </div>
+
+  <!-- Footer -->
+  <footer>
+    <div id="inner-footer-wrapper">
+        <div>
+            <a href="index.html"><img class="logo-footer" src="asset/logo_light.png" alt=""></a>
+        </div>
+        <div id="menu-contact-wrapper">
+            <div id="footer-menu-wrapper">
+              <a href="index.html"><b>V-Phone</b></a>
+              <a href="about.html">About Us</a>
+              <a href="product.html">Product</a>
+              <a href="promotion.html">Promotion</a>
+            </div>
+            <div id="footer-contact-wrapper">
+                <h3>Contact Us Here!</h3>
+                <div id="contact-list-wrapper">
+                    <a href="https://api.whatsapp.com" class="contact-detail">
+                        <img class="whatsapp" src="asset/whatsapp.png" alt="">
+                        <p>+62 821-1234-5678</p>
+                    </a>
+                    <a href="https://mail.google.com" class="contact-detail">
+                        <img class= "gmail" src="asset/gmail.png" alt="">
+                        <p>support@vphone.id</p>
+                    </a>
+                </div>
+                <h3>Our Social Media</h3>
+                <div id="social-media-list-wrapper">
+                    <a href="https://www.instagram.com"><img class="instagram" src="asset/instagram.png" alt=""></a>
+                    <a href="https://x.com"><img class="twitter" src="asset/twitter.png" alt=""></a>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr"><img class ="facebook" src="asset/facebook.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/navbar.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

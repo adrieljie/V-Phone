@@ -1,0 +1,49 @@
+#about-us-wrapper{
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+#about{
+    text-align: justify;
+    display:flex;
+    font-size: 30px;
+    color: var(--ascent);
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.title{
+    text-align: justify;
+    display:flex;
+    font-size: 20px;
+    color: var(--ascent);
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.text-content{
+    text-align: justify;
+    display:flex;
+    font-size: 15px;
+    color: var(--ascent);
+    margin-left: 70px;
+}
+
+#email-support{
+    text-align: justify;
+    display:flex;
+    font-size: 15px;
+    color: var(--ascent);
+    margin-left: 10px;
+}
+
+#contact-support{
+    text-decoration: none;
+    text-align: justify;
+    display:flex;
+    font-size: 15px;
+    color: var(--ascent);
+    margin-left: 10px;
+}
