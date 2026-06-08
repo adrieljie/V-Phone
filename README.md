@@ -2,6 +2,9 @@
 V-Phone is a front-end website project for a smartphone selling company.  
 This project was created for a Human Computer Interaction course, focusing on user interface design, usability, navigation flow, and responsive layout.
 
+## Live Demo
+You can access the deployed website here: [https://adrieljie.github.io/V-Phone](https://adrieljie.github.io/V-Phone)
+
 ## Features
 - Homepage
 - About page
@@ -39,10 +42,6 @@ V-Phone/
 ├── register.html
 └── README.md
 ```
-# How to Run
 
-## Run Locally
+## How to Run Locally
 Open `index.html` directly in your browser.
-
-## Live Demo
-You can access the deployed website here: [https://adrieljie.github.io/V-Phone](https://adrieljie.github.io/V-Phone)
